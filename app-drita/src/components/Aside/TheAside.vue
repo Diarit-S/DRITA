@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-row flex-wrap">
+  <div class="d-flex flex-row flex-wrap pr-5 pt-1">
     <the-aside-item v-for="realization in realizations" :key="realization.id" :realization="realization"></the-aside-item>
   </div>
 </template>
