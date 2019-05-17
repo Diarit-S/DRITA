@@ -9,7 +9,7 @@
           <a class="nav-link" href="#">CONTACT</a>
         </li>
         <li class="devis-btn nav-item btn btn-outline-primary d-flex justify-center align-items-center mr-3">
-          <a class="nav-link" href="#">DEVIS</a>
+          <a class="nav-link" href="#">DEVIS GRAUIT</a>
         </li>
         <li></li>
       </ul>

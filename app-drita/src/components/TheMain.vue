@@ -3,6 +3,9 @@
     <h1>Tout vos travaux d'intérieur</h1>
     <p>Nous réalisons tout type de travaux d'intérieur</p>
     <p>Peinture, plomberie, revêtement</p>
+    <div class="btn btn-primary w-25">
+      Demandez votre devis
+    </div>
   </div>
 </template>
 
