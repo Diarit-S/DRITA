@@ -1,10 +1,10 @@
 <template>
     <div class="w-50 d-flex flex-column p-1">
-      <div class="bg-light pt-4 rounded">
-        <div class="image-container d-flex flex-row justify-content-center">
-          <img :src="realization.img" alt="realisation" style="height : 200px;">
+      <div class="card rounded">
+        <div class="image-container">
+          <img :src="getImg"  alt="realisation" style="width : 100%;">
         </div>
-        <div class="mt-2">
+        <div>
           <h3 class="text-center">{{realization.work}}</h3>
         </div>
       </div>
@@ -19,6 +19,12 @@ export default {
     realization : {
     }
   },
+  computed : { 
+    // function to get the image of each card based on the event bus img writed
+    getImg(){
+      return require(`../../assets/${this.realization.img}.jpg`)
+    }
+  }
 }
 </script>
 
@@ -26,14 +32,20 @@ export default {
 
 .image-container {
   overflow: hidden;
+  max-height: 250px;
 }
 
 img {
-  object-fit: contain;
+  border-radius: 5px 5px 0 0;
 }
 
-.bg-light {
+.card {
+  cursor: pointer;
   box-shadow: 3px 3px 8px 0px #a1a1a1;
+  transition: all 0.1s ease-in-out;
+}
+.card:hover {
+  transform: scale(0.98);
 }
 
 </style>

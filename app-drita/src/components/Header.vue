@@ -33,7 +33,7 @@ li>a {
   color: #163762;
 }
 li:hover>a {
-  color: black;
+  color: rgb(67, 149, 255);
 }
 li:nth-child(2):hover>a {
   color: white;

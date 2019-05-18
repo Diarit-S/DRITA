@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid d-flex flex-column justify-content-center">
+  <div class="container-fluid d-flex flex-column justify-content-center p-4">
     <h1>Tout vos travaux d'intérieur</h1>
     <p>Nous réalisons tout type de travaux d'intérieur</p>
     <p>Peinture, plomberie, revêtement</p>
