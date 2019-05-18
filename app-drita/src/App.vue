@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <Header/>
-    <div class="d-flex flex-row" >
-      <the-main class="w-50"></the-main>
-      <the-aside class="w-50"></the-aside>
+    <div class="all-container" >
+      <the-main class="col-md-6"></the-main>
+      <the-aside class="col-md-6"></the-aside>
     </div>
   </div>
 </template>
@@ -28,5 +28,18 @@ export default {
 body {
   background-color: #ececec;
 }
+
+.all-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media(max-width:767px){
+  .all-container {
+    flex-direction: column;
+  }
+}
+
+
 
 </style>

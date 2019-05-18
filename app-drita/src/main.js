@@ -14,18 +14,18 @@ export const eventBus = new Vue({
       },
       {
         id : '2',
-        img : 'peinture',
-        work : 'CARRELAGE'
+        img : 'carrelage',
+        work : 'REVETEMENT'
       },
       {
         id : '3',
-        img : "peinture",
+        img : "plomberie",
         work : 'PLOMBERIE'
       },
       {
         id : '4',
-        img : "peinture",
-        work : 'REVETEMENT'
+        img : "nuancier",
+        work : 'DECORATION'
       },
     ]
   }
