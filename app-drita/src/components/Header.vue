@@ -3,17 +3,14 @@
     <a class="navbar-brand">
       <img src="../assets/drita-logo.png" alt="logo" style="width:40%">
     </a>
-    <div>
-      <ul class="navbar-nav">
-        <li class="mr-4">
-          <a class="nav-link" href="#">CONTACT</a>
-        </li>
-        <li class="devis-btn nav-item btn btn-outline-primary d-flex justify-center align-items-center mr-3">
-          <a class="nav-link" href="#">DEVIS GRAUIT</a>
-        </li>
-        <li></li>
-      </ul>
-    </div>
+    <ul class="navbar-nav">
+      <li class="mr-4">
+        <a class="nav-link" href="#">CONTACT</a>
+      </li>
+      <li class="devis-btn nav-item btn btn-outline-primary d-flex justify-center align-items-center mr-3">
+        <a class="nav-link" href="#">DEVIS GRAUIT</a>
+      </li>
+    </ul>
   </nav>
 </template>
 

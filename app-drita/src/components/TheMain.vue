@@ -2,7 +2,8 @@
   <div class="container-fluid d-flex flex-column justify-content-center p-4">
     <h1>Tout vos travaux d'intérieur</h1>
     <p>Nous réalisons tout type de travaux d'intérieur</p>
-    <p>Peinture, plomberie, revêtement</p>
+    <p>Peinture, plomberie, revêtement, décoration et tout vos travaux de rénovations !</p>
+    <p>Nous mettons à votre service notre grande experience pour </p>
     <div class="btn btn-primary w-25">
       Demandez votre devis
     </div>
