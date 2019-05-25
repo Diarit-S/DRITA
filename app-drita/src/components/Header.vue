@@ -3,7 +3,7 @@
     <a class="navbar-brand">
       <img src="../assets/drita-logo.png" alt="logo" style="width:40%">
     </a>
-    <ul class="navbar-nav">
+    <ul class="navbar-nav d-flex flex-row">
       <li class="mr-4">
         <a class="nav-link" href="#">CONTACT</a>
       </li>
@@ -21,13 +21,15 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<style lang="scss">
 
 li {
   height: 40px;
 }
-li>a {
-  color: #163762;
+li {
+  a {
+    color: #163762;
+  }
 }
 li:hover>a {
   color: rgb(67, 149, 255);
