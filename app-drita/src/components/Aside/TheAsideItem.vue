@@ -50,5 +50,8 @@ img {
   box-shadow: 1px 1px 8px 0px #a1a1a1;
   opacity: 1;
 }
+.test-classe {
+  
+}
 
 </style>
